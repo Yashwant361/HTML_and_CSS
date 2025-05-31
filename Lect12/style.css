@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {  /* root tag is html*/
+    font-size: 60px;
+}
+
+
+
+
+.parent {
+    border: 1px solid red;
+    background-color: #f4b2e8;
+    /* width: 300px;
+    height: 400px; */
+    width: 50vw; /* vw => viewport width*/
+    height: 50vh; /* vw => viewport height*/
+    font-size: 20px;
+}
+
+.child {
+    /* font-size: 1rem;  */
+    font-size: 1em; /* used in font size*/
+    background-color: rgb(67, 179, 74);
+    width: 50%;
+    height: 50%;
+    margin: 10px;
+}

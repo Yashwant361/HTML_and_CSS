@@ -1,0 +1,47 @@
+* {
+    /* margin is 0 , because to avoid default margin*/
+    margin: 0;
+    /* padding is 0 , because to avoid default padding*/
+
+    padding: 0;
+    /* a property that affects how an element's width and height are calculated */
+
+    box-sizing: border-box;
+    /* border: 1px solid green; */
+}
+
+.container {
+    /* overflow-y: scroll; */
+    margin: auto;
+    border: 5px solid red;
+    width: 50vw;
+    /* min-height: 100vh; */
+    height: 80vh;
+    /* height: auto; */
+    display: flex;
+    flex-wrap: wrap;
+    /* float: right;   */
+    /* float is same as justify-content*/
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* justify-content: space-around; /*main axis*/
+    /* justify-content: space-between; */
+    align-items: center;
+    /*cross axis*/
+    gap: 10px;
+    /* align-content: space-between; */
+}
+
+
+.box {
+    background-color: violet;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-color: aqua;
+}
+.box2{
+    flex-grow: -10;
+    align-self: flex-start;
+}

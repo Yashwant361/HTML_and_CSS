@@ -1,0 +1,29 @@
+h1{
+    color: yellowgreen;
+}
+
+.wrapper{
+    background-color: orange;
+}
+.container{
+    background-color:rgb(7, 195, 38);
+}
+#hello{
+    background-color: chocolate;
+}
+.sir{
+    color: white;
+    text-align: center;
+    background-color: purple;
+}
+/* ul li:nth-child(2n+1){
+    background-color:orange;
+}
+ul li:nth-child(2n+2){
+    background-color:green;
+} */
+
+ul li:hover{
+    background-color: purple;
+    color: aqua;
+}
