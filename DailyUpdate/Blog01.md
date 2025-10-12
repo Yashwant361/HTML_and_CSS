@@ -1,0 +1,2 @@
+What is HTML?
+HTML, an acronym for HyperText Markup Language, is the standard language for designing web pages. It is a combination of Hypertext, which establishes the links between web pages, and Markup language, which is used to define the structure of web pages within tags. HTML forms the backbone of any webpage, dictating its structure and content.
