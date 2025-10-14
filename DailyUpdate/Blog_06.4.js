@@ -1,8 +1,10 @@
 //Find First N Armstrong Numbers
 let count = 0;
-let N = 5
+let N = 3
 
-for (let num = 1; true; num++) {
+
+// for (let num = 1; true; num++) { // First N number of armStrong
+for (let num = 1000; num >= 1; num--) { // Last N number of armStrong 
     let temp = num;
     let sum = 0;
     let temp1 = num;
@@ -15,10 +17,10 @@ for (let num = 1; true; num++) {
     }
     if (temp === sum) {
         console.log(temp);
-        
+
         count++
     }
-    if (count === N) 
+    if (count === N)
         break;
-    
+
 }
