@@ -18,7 +18,7 @@ for (let num = 1; true; num++) {
         
         count++
     }
-    if (count === N) {
+    if (count === N) 
         break;
-    }
+    
 }
