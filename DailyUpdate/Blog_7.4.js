@@ -7,6 +7,6 @@ for (let i = 1; i <= n; i++) {
         // console.log(j);
 
     }
-    console.log(res);
+    console.log(res)
 
 }
