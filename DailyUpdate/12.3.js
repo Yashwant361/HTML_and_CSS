@@ -12,5 +12,5 @@ for (let i = 1; i <= n; i++) {
         res += num;
         num++;
     }
-    console.log(res);
+    console.log(res)
 }
