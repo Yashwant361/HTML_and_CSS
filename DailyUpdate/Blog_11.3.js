@@ -10,6 +10,6 @@ for(let i = 1 ; i<= n ;i++){
             res+=n+"   "
         }
     }
-    console.log(res);
+    console.log(res)
     
 }
