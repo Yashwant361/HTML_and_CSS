@@ -10,3 +10,4 @@ For example:
 Some tags are self-closing, meaning they don’t require a closing tag, such as <img> and <br>.
 
 Essential tags for defining an HTML document structure include <!DOCTYPE html>, <html>, <head>, and <body>.
+Essential tags for defining an HTML document structure include <!DOCTYPE html>, <html>, <head>, and <body>.
