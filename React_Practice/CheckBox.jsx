@@ -20,7 +20,7 @@ function MyForm() {
     }
     if (fillings == '') fillings = 'no fillings';
     alert(`${inputs.firstname} wants a burger with ${fillings}`);
-    event.preventDefault();
+    event.preventDefault()
   };
 
   return (
