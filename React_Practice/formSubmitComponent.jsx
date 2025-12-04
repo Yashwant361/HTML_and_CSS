@@ -23,7 +23,7 @@ function FormSubmit() {
     e.preventDefault();
 
     if (!formData.name || !formData.email) {
-      alert("Please fill all fields!");
+      alert("Please fill all fields!")
       return;
     }
 
