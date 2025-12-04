@@ -22,7 +22,7 @@ import {useState} from 'react';
 		 }
 		 function reset(){
 			 setCount(0)
-			 alert('Reset All')
+			 alert('Reset All');
 		 }
 
        return(
