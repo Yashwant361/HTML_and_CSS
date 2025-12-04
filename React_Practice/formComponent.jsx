@@ -24,7 +24,7 @@ function ReactForm() {
     event.preventDefault();
 
     if (!formData.name || !formData.email || !formData.password) {
-      setMessage("❌ Please fill all fields");
+      setMessage("❌ Please fill all fields")
       return;
     }
 
