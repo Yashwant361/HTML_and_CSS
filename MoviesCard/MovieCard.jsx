@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import MovieDesc from "./MovieDesc";
+import MovieDesc from "./MovieDesc"
 
 function MovieCard({ movie }) {
   const [show, setShow] = useState(false);
