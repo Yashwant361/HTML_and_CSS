@@ -9,4 +9,4 @@ function MovieDesc({ desc }) {
   );
 }
 
-export default MovieDesc;
+export default MovieDesc
