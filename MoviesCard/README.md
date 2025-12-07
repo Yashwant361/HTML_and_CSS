@@ -43,5 +43,4 @@ Each movie card has:
    |=>View More toggle
 
 Clean modular component structure
-
 Beginner-friendly React example
