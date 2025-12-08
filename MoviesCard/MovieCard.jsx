@@ -15,7 +15,7 @@ function MovieCard({ movie }) {
           className="btn btn-primary"
           onClick={() => setShow(!show)}
         >
-          {show ? "Hide" : "Show"} Description
+        {show ? "Hide" : "Show"} Description
         </button>
 
         {show && <MovieDesc desc={movie.desc} />}
