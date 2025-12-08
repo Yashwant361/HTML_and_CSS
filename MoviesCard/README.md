@@ -33,7 +33,7 @@ MovieList	MovieCard	movie	Send individual movie details
 MovieCard	MovieDesc	desc	Show movie description
 ✨ Features
 
-Displays list of movies
+Displays list of movie
 
 Each movie card has:
 --------------------
