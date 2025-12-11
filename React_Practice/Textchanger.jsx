@@ -13,7 +13,7 @@ function Message() {
     <div>
       <h2>{msg}</h2>  {/* Step 3: UI me state show */}
 
-      <button onClick={changeText}>Change Text</button>
+      <button onClick={changeText}> Change Text</button>
     </div>
   );
 }
