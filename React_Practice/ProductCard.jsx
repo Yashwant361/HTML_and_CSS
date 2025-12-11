@@ -29,7 +29,7 @@ function ProductCard2() {
 
             {/* for...of loop */}
             {(() => {
-                const items = [];   // yaha const sahi hai (array ko reassign nahi kar rahe)
+                const items = [];  // yaha const sahi hai (array ko reassign nahi kar rahe)
                 
                 for (const p of products) {
                     const { id, name, price, imgUrl } = p;
