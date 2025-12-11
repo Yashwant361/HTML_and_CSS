@@ -15,7 +15,7 @@ function ThemeToggle() {
       <h2>{dark ? "Dark Mode" : "Light Mode"}</h2>
 
       <button onClick={() => setDark(!dark)}>
-        Toggle Theme
+        Toggle  Theme
       </button>
     </div>
   );
