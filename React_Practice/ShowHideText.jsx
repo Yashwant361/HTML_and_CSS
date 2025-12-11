@@ -8,7 +8,7 @@ function ShowHide() {
       {show && <h2>Hello Master Ray!</h2>}  {/* show only if show=true */}
 
       <button onClick={() => setShow(!show)}>
-        {show ? "Hide" : "Show"}
+        {show ? "Hide" :  "Show"}
       </button>
     </div>
   );
