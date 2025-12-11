@@ -16,7 +16,7 @@ function MyForm() {
           onChange={handleChange}
         />
       </label>
-      <p>Current value: {mytxt}</p>
+      <p>Current value:{mytxt}</p>
     </form>
   )
 }
