@@ -5,7 +5,7 @@ for (let i = 1; i <= n; i++) {
   let res = "";
 
   // spaces
-  for (let s = 1; s <= n - i; s++) {
+  for (let s = 1; s<= n - i; s++) {
     res += " ";
   }
 
