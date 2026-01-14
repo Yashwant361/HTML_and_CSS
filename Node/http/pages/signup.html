@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <h1>SIGNUP PAGE</h1>
+    <form>
+        <input type="text" placeholder="email" id="email">
+        <input type="number" placeholder="age" id="age">
+        <input type="password" placeholder="password" id="password">
+        <input type="submit" placeholder="signup" id="submit">
+    </form>
+    
+
+    <script>
+        let emailTag=document.getElementById('email');
+        let ageTag=document.getElementById('age');
+        let passTag=document.querySelector('#password');
+        let submitBtn=document.getElementById('submit');
+
+        submitBtn.addEventListener('click',async (e)=>{
+            e.preventDefault();
+            if (emailTag.value==''||passTag.value==''||ageTag.value==''){
+                return  alert('input field cannot be empty')
+            }
+            let user = { email: emailTag.value , password: passTag.value, age: ageTag.value};
+            emailTag.vaule = "";
+            passTag.value = "";
+            ageTag.value = "";
+
+            try {
+                let res=await fetch('/signup',{
+                    method:"POST",
+                    body:JSON.stringify(user),
+                    headers:{
+                        "Content-type":"application/json"
+                    }
+                }) ;
+                let data=await res.json();
+
+                alert (data.message);  
+            } catch (error) {
+                
+            }
+        })
+    </script>
+</body>
+</html>
