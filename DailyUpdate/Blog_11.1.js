@@ -6,3 +6,4 @@ for(i = 1; i <= 10; i += 2)   // Outer loop
  console.log(res)
  
 }
+
